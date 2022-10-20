@@ -59,7 +59,7 @@ function Inicio() {
           aria-label="icon position tabs example"
         >
           <Tab icon={<AssignmentIcon />} label="Existencias" component={Link} to="/inicio/existencias" />
-          <Tab icon={<LoginIcon />} label="Entradas" />
+          <Tab icon={<LoginIcon />} label="Entradas" component={Link} to="/inicio/entradasMenu" />
           <Tab icon={<LogoutIcon />} label="Salidas" />
           <Tab icon={<ShoppingCartIcon />} label="Ventas" />
           <Tab icon={<KeyboardReturnIcon />} label="Devoluciones" />
